@@ -1,0 +1,7 @@
+file=File.new("demo.txt","r+")
+
+if file 
+  file.syswrite("okk okk okk.....")
+else
+  puts "unable to write "
+end
